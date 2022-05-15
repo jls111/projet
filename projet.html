@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="projet.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       
+   <script src="projet.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script>
+
+
+function grande() {
+  document.getElementById("p1").style.color = "blue";
+  document.getElementById("p1").style.fontSize="100px"
+}
+
+function petite() {
+  document.getElementById("p1").style.color = "orangered";
+  document.getElementById("p1").style.fontSize="80px"
+}
+</script>
+  </head>
+
+<body>
+ 
+
+        <nav >
+            <ul>
+               
+                
+                <li class="li"><a href="inscription.html">inscription</a></li>
+                <li class="li"><a href="#contact">Contact</a></li>
+                <li class="li"><a href="#about">About</a></li>
+                <li class="li"><a class="active" href="#home">Home</a></li>
+              </ul>
+        </nav>
+   
+    <section class="section1" >
+    
+      <div id="div1">
+        <img id="img" src="https://static.wixstatic.com/media/fb5049_d42b3fb1cdc74bda86d3991874142ad2~mv2.png/v1/fill/w_484,h_448,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Frame%2011852.png" alt="">
+      </div>
+     <div id="div2"><p id="p1" onmouseover="grande()" onmouseout="petite()" >Hello </p> <p id="p2">I'm ABC,<br> a
+      product designer<br>
+      based in New York.</p>
+    </div>
+  
+    </section>
+   
+
+  <section class="section2">
+    <div id="div3" > <i class="fa-solid fa-circle" style="font-size: 20px;"><p id="p3"> Kia</p></i></div>
+     <div id="div4">
+       <p id="p4">After Kia’s global re-brand,<br> we reimagined Kia Canada’s <br>website from an entirely new perspective.</p>
+        <button type="button" onclick="mfunction()">Voir Le Projet</button>
+      </div>
+  </section>
+  <!--  PHOTO-->
+  <section id="section0"></section>
+<footer></footer>
+<!--slideshow-->
+<section class="section3">
+  <section id="sectionf">
+       <div id="divf">
+        <p id="p4">As a top commercial real estate company, we consolidated multiple sites for better brand consistency and accessibility.</p>
+       </div>
+       <div id="divf0">
+        <i class="fa-solid fa-circle" style="font-size: 20px;"><p id="p3"> 
+          Cadillac Fairview</p></i>
+       </div>
+
+
+  </section>
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img style="width: 100%;" src="img3.png">
+     
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img style="width: 100%;" src="img2.png" >
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img style="width: 100%;" src="img1.png" >
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+</section>
+<footer class="footer">
+   <center>&copy; Sahar Jlassi</center>
+</footer>
+</body>
+
+</html>  

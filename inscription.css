@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(173, 195, 237);
+}
+.body{
+position: relative;
+left: 500px;
+top: 150px; 
+border: 6px rgb(90, 66, 248) solid;
+width: 20%;
+
+padding: 60px;
+background-color: rgb(205, 250, 255);
+
+}
+.titre{
+    position: relative;
+    top: 20px;
+    font-size: 40px;
+    text-shadow: 0 0 3px #8c2063, 0 0 5px #0000FF;
+}
